@@ -5,7 +5,6 @@ body {
     background-color: white;
     margin: 0;        
     padding: 0;
-    /* color: #333; */
 }
 
 h1 {
@@ -84,7 +83,7 @@ img {
 .img-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px; /* ปรับระยะห่างระหว่างภาพที่ต้องการ */
+  gap: 16px; 
   justify-items: center;
   padding: 20px;
 }
